@@ -1,0 +1,54 @@
+//ファイルの読み込み、保存
+:w
+:q
+:q!
+:e
+//移動
+gg
+gg
+ctrl+f/ctrl+b
+w/b
+^/$
+f
+%
+//ビュジュアルモード
+v
+V
+ctrl+V
+//カット、コピー、貼り付け
+x/dd/5dd
+yy
+p
+//検索
+/(検索語)
+n/N
+*/#
+//置換
+:s/foo/bar/
+:%s/foo/bar/g
+:%s/foo/bar/gc
+//操作の取り消し
+u
+ctrl+r
+//ウィンドウの分割
+:sp
+:vs
+:close
+//タブ
+:tabnew
+:tabe
+gt
+:tabclose
+//直前の操作を繰り返す
+.
+//インデントを揃える
+=
+//補完機能
+ctrl+N
+//短形選択後に編集
+//テキストオブジェクトを扱う
+//便利な設定
+:set number/:set nonumber
+:systax on /syntax of
+:set tabstop=4
+:set ignorevase/:set noignorecase
